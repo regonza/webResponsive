@@ -1,0 +1,25 @@
+#blog h3,h4{
+    text-align: center;
+}
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    max-width: 200px;
+}
+
+#blog img:hover {
+    transform: rotate(180deg);
+    transform: scale(1.5);
+    transition: 2s;
+     -webkit-transform: rotate(360deg) scale(1.5);
+     -webkit-transition: 2s;
+}
